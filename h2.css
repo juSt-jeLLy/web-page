@@ -1,0 +1,129 @@
+<style>
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: grid;
+    height: 575px;
+    width: auto;
+    /* border: 1px red solid; */
+    grid-template-columns: repeat(1 auto);
+    grid-template-rows: 72px 800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://bit.ly/31vWRS7');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar {
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 2rem;
+    grid-template-rows: 70px;
+}
+
+#logo_div {
+    width: 100px;
+    height: 50px;
+    margin: 5px 20px;
+    /* border: 2px red solid; */
+}
+
+#logo_div img {
+    filter: invert(200%);
+    width: 100px;
+
+}
+
+#unorder_list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listing {
+    /* background-color: white; */
+    align-self: centers;
+    margin-top: 15px;
+}
+
+a {
+    border: 1px white solid;
+    border-radius: 10px;
+    /* margin: 5px 0px; */
+    padding: 5px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+#search_box_div {
+    width: auto;
+    height: auto;
+}
+
+#search_box {
+    border: 2px grey solid;
+    /* margin:auto; */
+    display: block;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin: 17px auto;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+    /* border: 1px red solid; */
+}
+
+#loginform {
+    border: 2px rgb(112, 111, 111) solid;
+    border-radius: 7px;
+    width: 60vh;
+    margin: 50px 60px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_align {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+}
+
+form h2 {
+
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.form_details {
+    /* display: block; */
+    margin: 5px 0px;
+    padding: 7px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#form_submit {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+</style>
