@@ -1,0 +1,27 @@
+
+<style>
+#image{
+    height:50%;
+    width:auto;   
+    }
+#title{    
+    font-weight: bold;
+}
+#img-div{
+    text-align:center;
+}
+#main{
+    font-family:sans-serif;
+}
+#img-caption{
+    font-weight:lighter;
+}
+#tribute-info{
+    line-height:25px;
+  font-size:20px;
+}
+#tribute-link{
+    color:red;
+}
+
+</style>
